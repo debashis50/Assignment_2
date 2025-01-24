@@ -178,3 +178,136 @@
     gap: 8px;
     margin-top:20px;
 }
+.second-image {
+    background-image: url("assets/bg.png");
+}
+
+.second_main {
+    background-image: linear-gradient(white, rgb(240, 202, 132));
+}
+
+.child_box_one,
+.child_box_two,
+.child_box_three,
+.child_box_four,
+.child_box_five,
+.child_box_six,
+.child_box_seven {
+
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.child_box_one {
+    grid-area: child1;
+}
+
+.child_box_two {
+    grid-area: child2;
+}
+
+.child_box_three {
+    grid-area: child3;
+}
+
+.child_box_four {
+    grid-area: child4;
+}
+
+.child_box_five {
+    grid-area: child5;
+}
+.child_box_six {
+    grid-area: child6;
+}
+.child_box_seven {
+    grid-area: child7;
+}
+.section_children {
+    margin: 100px 0px 0px 0px;
+    display: grid;
+    grid-template-areas:
+        "child1 child2 child3"
+        "child1 child4 child5";
+    gap: 15px;
+
+}
+
+.section_children h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.box_image img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.story-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+.view_button {
+    color: azure;
+    background-color: black;
+    padding: 10px 45px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 18px;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    top: -20px;
+    position: absolute;
+}
+.btn-cyan{
+    background-color: cyan;
+    
+}
+.btn-green{
+    background-color: #95B226;
+    
+}
+.btn-purple{
+    background-color: #7A288A;
+}
+.box_button {
+    padding: 10px;
+    position: relative;
+}
+.last_image{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+}
+.last_image img{
+    height: 55px;
+    width: 50px;
+    padding-top: 20px ;
+    margin-right: 7px;
+}
+.end_section{
+    margin: 0px 80px;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    color: white;
+    width: 95%;
+    height: 100%;
+    padding: 80px 0px;
+    
+}
