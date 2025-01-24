@@ -161,3 +161,20 @@
 #read_three {
     color: rgb(136, 13, 236);
 }
+.nav_button {
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 30px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top:20px;
+}
