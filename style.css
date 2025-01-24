@@ -59,3 +59,42 @@
     transform: scale(1.08);
     border-color:orange ;
 }
+
+
+.search_bar {
+    justify-content: space-between;
+}
+
+.main_heading {
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.first_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: end;
+}
+
+.image-container img {
+    width: 400px;
+    height: 500px;
+}
+.enroll {
+    background-color: black;
+    color: white;
+    padding: 9px 28px;
+    border-radius: 10px;
+}
+.primary_text  {
+    color: orange;
+}
+
+.secondary_text  {
+    color: rgb(31, 175, 241);
+}
